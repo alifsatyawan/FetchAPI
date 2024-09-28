@@ -78,3 +78,37 @@ Open a terminal or command prompt and run:
 ```bash
 python3 --version
 
+## Setting Up the Environment
+
+### 1. Download the Project Files
+
+1. **Create a Project Directory:**
+
+   - Open a terminal or command prompt.
+   - Navigate to the directory where you want to store the project.
+   - Create a new directory:
+
+     ```bash
+     mkdir point_management_api
+     cd point_management_api
+     ```
+
+2. **Create `app.py` File:**
+
+   - Create a new file named `app.py` in the project directory.
+   - Copy the following code into `app.py`:
+
+     ```python
+     # (Include the full code here)
+     ```
+
+### 2. Set Up a Virtual Environment (Optional but Recommended)
+
+A virtual environment isolates your project's dependencies, ensuring they don't interfere with system-wide packages.
+
+#### Create a Virtual Environment
+
+```bash
+python3 -m venv venv
+
+
