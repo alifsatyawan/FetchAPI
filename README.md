@@ -8,17 +8,7 @@ This project implements a RESTful API for managing user points per payer using P
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Setting Up the Environment](#setting-up-the-environment)
-- [Running the Application](#running-the-application)
-- [Testing the API](#testing-the-api)
-  - [Add Points Endpoint](#add-points-endpoint)
-  - [Spend Points Endpoint](#spend-points-endpoint)
-  - [Get Points Balance Endpoint](#get-points-balance-endpoint)
-- [Testing with Provided Data](#testing-with-provided-data)
-- [Troubleshooting](#troubleshooting)
-- [Additional Notes](#additional-notes)
-- [Contact](#contact)
-
+  
 ## Prerequisites
 
 - **Operating System:** Windows, macOS, or Linux
