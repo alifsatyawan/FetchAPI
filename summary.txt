@@ -4,10 +4,12 @@ I chose Python as the programming language and Flask as the web framework for se
 Python:
 Python is very portable, which means this solution can be run on any system with Python installed, making it accessible for reviewers who may not have prior experience with Python.
 It also known for its clean and readable syntax, which allows for quick development and easier understanding of the codebase. 
-Python also enables rapid development of applications due to its concise syntax and dynamic typing. This makes it suitable for building prototypes and small-scale projects efficiently. Moreover, its extensive standard library provides built-in modules and functions that simplify tasks like date and time manipulation, data structures, and more.
+Python also enables rapid development of applications due to its concise syntax and dynamic typing. T
+his makes it suitable for building prototypes and small-scale projects efficiently. Moreover, its extensive standard library provides built-in modules and functions that simplify tasks like date and time manipulation, data structures, and more.
 
 Flask:
-Flask is ideal for building simple REST APIs quickly. It doesn't enforce a particular project structure or dependencies, allowing developers to choose components that best fit their needs. It's also easy to learn for those familiar with Python and  has straightforward routing and request handling. And, Flask provides easy methods for handling JSON input and output, which aligns with the need to accept and return JSON data.
+Flask is ideal for building simple REST APIs quickly. It doesn't enforce a particular project structure or dependencies, allowing developers to choose components that best fit their needs. 
+It's also easy to learn for those familiar with Python and  has straightforward routing and request handling. And, Flask provides easy methods for handling JSON input and output, which aligns with the need to accept and return JSON data.
 
 
 What are the advantages and disadvantages of your solution?
