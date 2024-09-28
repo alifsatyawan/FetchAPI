@@ -1,31 +1,39 @@
-1. Why did you choose the tools, libraries, and language you used for the coding exercise?
-I chose Python as the programming language and Flask as the web framework for this coding exercise for several reasons:
+Why did you choose the tools, libraries, and language you used for the coding exercise?
+I chose Python as the programming language and Flask as the web framework for several reasons:
 
 Python:
-Simplicity and Readability: Python is known for its clean and readable syntax, which allows for quick development and easier understanding of the codebase. This is particularly beneficial in a coding exercise where clarity is important.
-Rapid Prototyping: Python enables rapid development of applications due to its concise syntax and dynamic typing. This makes it suitable for building prototypes and small-scale projects efficiently.
-Large Standard Library: Python's extensive standard library provides built-in modules and functions that simplify tasks like date and time manipulation, data structures, and more.
-Community and Support: Python has a vast community and a wealth of resources, making it easier to find documentation, tutorials, and support when needed.
+Python is very portable, which means this solution can be run on any system with Python installed, making it accessible for reviewers who may not have prior experience with Python.
+It also known for its clean and readable syntax, which allows for quick development and easier understanding of the codebase. 
+Python also enables rapid development of applications due to its concise syntax and dynamic typing. This makes it suitable for building prototypes and small-scale projects efficiently. Moreover, its extensive standard library provides built-in modules and functions that simplify tasks like date and time manipulation, data structures, and more.
 
 Flask:
-Lightweight and Minimalistic: Flask is a micro web framework that provides the essentials for web development without unnecessary overhead. It's ideal for building simple REST APIs quickly.
-Flexibility: Flask doesn't enforce a particular project structure or dependencies, allowing developers to choose components that best fit their needs.
-Ease of Use: Flask is easy to learn for those familiar with Python. It has straightforward routing and request handling, which is beneficial for a coding exercise with time constraints.
-Extensibility: Flask supports extensions for adding functionality as needed, without complicating the initial setup.
-
-2. What are the advantages and disadvantages of your solution?
+Flask is ideal for building simple REST APIs quickly. It doesn't enforce a particular project structure or dependencies, allowing developers to choose components that best fit their needs. It's also easy to learn for those familiar with Python and  has straightforward routing and request handling. And, Flask provides easy methods for handling JSON input and output, which aligns with the need to accept and return JSON data.
 
 
-3. What has been a favorite school/personal project thus far? What about it that challenged you?
+What are the advantages and disadvantages of your solution?
+Advantages:
+It has minimal dependencies. By using only Flask and Python's standard libraries, the application remains lightweight and easy to set up.
+This simplify the installation process, which is beneficial for reviewers or users who may be new to Python.
+Moreover, I used in-memory data structures (lists and dictionaries) which allows for quick read and write operations, suitable for the scale described in this assignment.
+It also eliminates the need for setting up and configuring a database, simplifying the application's setup and execution.
+
+Disadvantages: 
+Since data is stored in memory, all transactions and balances are lost when the server restarts. This is not suitable for real-world applications where data persistence is crucial.
+Moreover, In-memory storage limits the application's ability to handle large datasets or multiple users concurrently. Lastly, the application assumes a single user, which doesn't reflect real-world scenarios where multiple users would interact with the system.
+
+
+What has been a favorite school/personal project thus far? What about it that challenged you?
 During my internship at Hawaiian Airlines, my primary focus was on solving a significant issue with the Accrual Generator (AG). 
 In certain scenarios—such as when a ticket number didn’t match the customer name—the system would fail to automatically accrue miles for HawaiianMiles members. 
 Before the PSS migration, agents had the ability to manually assess these errors using a tool called HMAT, but post-migration, this functionality was lost. 
+
 My task was to reintroduce this capability, enabling travel agents to manually address accrual errors and decide whether to accept or reject them.
-This was a challenging project for several reasons. First, I had to work with a new tech stack, including Go, Postman, SOAP calls, and backend APIs, which required me to quickly get up to speed. 
-Additionally, I needed to develop a robust solution that integrated seamlessly with the existing system, all while maintaining 95% test coverage. 
+This was a challenging project for several reasons. First, I had to work with a new tech stack, including Go, Postman, SOAP calls, and backend APIs, which required me to quickly get up to speed.  Additionally, I needed to develop a robust solution that integrated seamlessly with the existing system, all while maintaining 95% test coverage. 
 This involved writing extensive unit tests that covered both positive and negative scenarios.
+
 One of the key accomplishments was building four libraries—totaling around 10,000 lines of code—that formed the core of the error-handling module. 
 This module allowed agents to assess and clear the errors placed in a queue, reducing the burden on the system and improving the accuracy of mileage accruals. 
 The project ultimately reduced error-related costs by 25%, impacted over 500,000 ticket transactions, and provided a critical manual processing tool for 2 million HawaiianMiles members.
+
 Working on this project taught me a lot about navigating complex codebases, writing maintainable code, and the importance of unit testing for large-scale software systems. 
 It also allowed me to contribute directly to improving customer service and operational efficiency at Hawaiian Airlines.
